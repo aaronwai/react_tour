@@ -4,7 +4,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Tours from "./components/Tours";
 import Footer from "./components/Footer";
-function App() {
+export function App() {
   return (
     <>
       <Navbar />
@@ -16,5 +16,3 @@ function App() {
     </>
   );
 }
-
-export default App;
